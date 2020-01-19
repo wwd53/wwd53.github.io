@@ -1,0 +1,173 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+html{
+    width: 100%;
+    height: 100%;
+}
+body{
+    width: 100%;
+    height: 100%;
+    background: url("yinyue.png") no-repeat 50% 50%;
+    background-size: cover;
+}
+.wrapper{
+    width: 600px;
+    margin: 50px auto 0;
+    /* border: 1px solid white; */
+}
+.main{
+    width: 100%;
+    text-align: center;
+}
+.main img{
+    width: 200px;
+    height: 200px;
+    border: 50px solid #444;
+    border-radius: 50%;
+}
+.tool{
+    position: relative;
+    width: 100%;
+    height: 80px;
+    background-color: rgba(0, 0, 0, 0.5);
+    margin-top: 100px;
+    border-radius: 20px;
+    user-select: none;
+}
+.sys{
+    position: absolute;
+    left: 15px;
+    width: 30px;
+    height: 30px;
+    cursor: pointer;
+}
+.btn{
+    position: absolute;
+    left: 50px;
+    width: 30px;
+    height: 30px;
+    cursor: pointer;
+}
+.xys{
+    position: absolute;
+    left: 85px;
+    width: 30px;
+    height: 30px;
+    cursor: pointer;
+}
+.volume{
+    position: absolute;
+    right: 75px;
+    width: 30px;
+    height: 30px;
+    cursor: pointer;
+}
+.tool span{
+    color: white;
+    font-size: 30px;
+}
+.tool>div{
+    top:50%;
+    margin-top: -15px;
+}
+.progress{
+    position: absolute;
+    left: 50%;
+    margin-left: -200px;
+    width: 400px;
+    height: 30px;
+    /* border: 1px solid pink; */
+}
+.current-time,.duration-time{
+    width: 80px;
+    height: 30px;
+    color: white;
+    text-align: center;
+    line-height: 30px;
+}
+.current-time{
+    float: left;
+}
+.duration-time{
+    float: right;
+}
+.pro-box{
+    position: absolute;
+    top: 50%;
+    margin-top: -1px;
+    display: inline-block;
+    width: 240px;
+    height: 2px;
+}
+.pro-bg{
+    position: absolute;
+    top: 50%;
+    margin-top: -1px;
+    width: 100%;
+    height: 2px;
+    background: rgba(0, 0, 0, 0.3);
+}
+.pro-active{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 0;
+    height: 2px;
+    background: white;
+}
+.radio{
+    position: absolute;
+    right: 0;
+    top: -3px;
+    display: inline-block;
+    width: 8px;
+    height: 8px;
+    background: white;
+    border-radius: 50%;
+    cursor: pointer;
+}
+/* 音量部分 */
+.progresstwo{
+    position: absolute;
+    right: 0;
+    width: 73px;
+    height: 30px;
+    /* border: 1px solid pink; */
+}
+.back-box{
+    position: absolute;
+    top: 50%;
+    margin-top: -1px;
+    display: inline-block;
+    width: 72px;
+    height: 2px;
+}
+.back-bg{
+    position: absolute;
+    top: 50%;
+    margin-top: -1px;
+    width: 100%;
+    height: 2px;
+    background: rgba(0, 0, 0, 0.3);
+}
+.back-active{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 72px;
+    height: 2px;
+    background: white;
+}
+.round{
+    position: absolute;
+    right: 0;
+    top: -3px;
+    display: inline-block;
+    width: 8px;
+    height: 8px;
+    background: white;
+    border-radius: 50%;
+    cursor: pointer;
+}
